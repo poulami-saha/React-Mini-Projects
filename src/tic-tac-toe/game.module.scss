@@ -1,0 +1,52 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightseagreen;
+}
+
+.header {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.game {
+  height: 70vh;
+  width: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+  background-color: bisque;
+  color: coral;
+  cursor: pointer;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.winner {
+  color: antiquewhite;
+  font-size: 2rem;
+}
+
+.button {
+  border: none;
+  background: black;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  margin-block: 1rem;
+  cursor: pointer;
+}
