@@ -1,12 +1,9 @@
-import "./App.css";
-import Content from "./pagination/content";
-import Game from "./tic-tac-toe/game";
+import StarRating from "./star-rating/StarRating";
 
 function App() {
   return (
     <div>
-      {/* <Game /> */}
-      <Content />
+      <StarRating value={2} total={5} />
     </div>
   );
 }
