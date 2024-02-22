@@ -7,6 +7,7 @@ This project is a collection of mini React projects including:
 1. Pagination
 2. Tic-Tac-Toe
 3. Traffic Light
+4. Counter
 
 ## Available Scripts
 

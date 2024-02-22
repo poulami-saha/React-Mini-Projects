@@ -4,6 +4,12 @@ export interface Application {
 }
 
 export const ApplicationList = [
+    
+    {
+        name: "Counter",
+        githubLink: "https://github.com/poulami-saha/React-Mini-Projects/tree/main/src/counter",
+
+    },
     {
         name: "Pagination",
         githubLink: "https://github.com/poulami-saha/React-Mini-Projects/tree/main/src/pagination",
