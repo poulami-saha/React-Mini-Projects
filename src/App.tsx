@@ -1,10 +1,28 @@
-import StarRating from "./star-rating/StarRating";
-
+import { ApplicationList } from "./Application";
+import { BrowserRouter, Link } from "react-router-dom";
 function App() {
   return (
-    <div>
-      <StarRating value={2} total={5} />
-    </div>
+    <BrowserRouter>
+      <div>
+        <header>React Mini Challenges</header>
+        <ul>
+          {
+          ApplicationList.map((application) => {
+            return (
+              <li key={application.name}>
+                <Link
+                  to={application.githubLink}
+                  target="_blank"
+                  className="linkStyles"
+                >
+                  {application.name}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </BrowserRouter>
   );
 }
 
