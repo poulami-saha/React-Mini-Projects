@@ -25,4 +25,9 @@ export const ApplicationList = [
         githubLink: "https://github.com/poulami-saha/React-Mini-Projects/tree/main/src/traffic-light",
 
     },
+    {
+        name: "AutoComplete/Type Ahead",
+        githubLink: "https://github.com/poulami-saha/React-Mini-Projects/tree/main/src/autoComplete",
+
+    },
 ]
